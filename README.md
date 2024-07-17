@@ -1,3 +1,5 @@
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
+
 # Handle Mailgun Webhooks in a Laravel application
 
 ![https://github.com/binary-cats/laravel-mailgun-webhooks/actions](https://github.com/binary-cats/laravel-mailgun-webhooks/workflows/Laravel/badge.svg)
