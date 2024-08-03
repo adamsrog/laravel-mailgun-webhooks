@@ -189,8 +189,8 @@ Let's take a look at how you can listen for such an event. In the `EventServiceP
  * @var array
  */
 protected $listen = [
-    'mailgin-webhooks::delievered' => [
-        App\Listeners\DelieveredSource::class,
+    'mailgun-webhooks::delivered' => [
+        App\Listeners\DeliveredSource::class,
     ],
 ];
 ```
@@ -205,7 +205,7 @@ namespace App\Listeners;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Spatie\WebhookClient\Models\WebhookCall;
 
-class DelieveredSource implements ShouldQueue
+class DeliveredSource implements ShouldQueue
 {
     public function handle(WebhookCall $webhookCall)
     {
